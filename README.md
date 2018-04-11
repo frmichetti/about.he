@@ -8,3 +8,5 @@ My Portfolio Wearable: https://play.google.com/store/apps/details?id=br.com.frmi
 My Portfolio Web: http://www.codecode.com.br
 
 Owner and Developer of Workix: http://www.workix.com.br
+
+Ruby without Rails: http://www.rubywithoutrails.com
