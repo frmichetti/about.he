@@ -4,18 +4,18 @@ angular.module("FolioMainModule")
         $scope.areas = ['home', 'resume', 'servicesx', 'portfoliox', 'blogx', 'contact'];
 
         $scope.about = "Programmer / Developer of Web and Mobile Systems.\n" +
-            "He has more than 6 years of experience in the computer field in CLT regime.\n" +
-            "He is currently part of the Backend and DevOps developer team at O ​​Kuadro.\n" +
+            "He has more than 6 years of experience in the computer cience.\n" +
+            "He is currently part of the FullStack and DevOps developer team at O ​​Kuadro.\n" +
             "Worked as Backend developer JAVA, RUBY and Mobile Android at Avski Software Solutions.\n" +
-            "He has also worked in large and medium-sized companies, serving his users and equipment, Help-Desk.\n" +
-            "As Freelancer he was Network Administrator and Web Developer of small projects (JAVA, PHP and Android).";
+            "He has also worked in large and medium-sized companies, serving his users and equipment as Help-Desk.\n" +
+            "As Freelancer, he was Network Administrator and Web Developer of small projects (JAVA, PHP and Android).";
 
         $scope.me = {
             firstName: "Felipe",
             middleName: "Rodrigues",
             lastName: "Michetti",
             email: "felipe@codecode.com.br",
-            phone: "+55-12-98173-2648",
+            phone: "+55-12-98173-2648, +55-12-98176-0072 ",
             age: calculateAge(new Date("March 23, 1989")),
             country: 'BRA',
             address: "São José dos Campos, Brazil",
