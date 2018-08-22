@@ -1,0 +1,7 @@
+var img=document.getElementById("img");var _c=document.createElement("canvas");var _ctx=_c.getContext("2d");var c=document.getElementById("c");var ctx=c.getContext("2d");var cw=c.width=_c.width=274,cx=cw/2;var ch=c.height=_c.height=274,cy=ch/2;var frames=0;var fs=12;ctx.font="normal"+fs+"px monospace";ctx.textAlign="center";var digitsRy=[];var lry=[];_ctx.drawImage(img,0,0,cw,ch);var imgData=_ctx.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);var pixels=imgData.data;for(var i=0;i<pixels.length;i+=4){var ligh=parseInt((pixels[i]+pixels[i+1]+pixels[i+2])/3);lry.push(ligh)}
+for(var x=0;x<cw;x+=(4*fs/3)/2){var speed=randomIntFromInterval(3,10);for(var y=-(5*fs/3)-ch;y<0;y+=3*fs/4){var digit=new Digit(x,y,speed);digitsRy.push(digit)}}
+function Digit(x,y,s){this.x=x;this.y=y;this.s=s;this.text=Math.random()<0.5?"0":"1"}
+function Draw(){frames++;ctx.clearRect(0,0,cw,ch);for(var i=0;i<digitsRy.length;i++){var o=digitsRy[i];if(o.y<ch){o.y+=o.s}else{o.y=-(5*fs/3)}
+    dataCoords=o.y*cw+o.x;l=lry[dataCoords]*100/255;ctx.fillStyle="hsl(180,100%,"+(10+l/2)+"%)";ctx.fillText(o.text,o.x,o.y)}
+    window.requestAnimationFrame(Draw)}
+window.requestAnimationFrame(Draw);function randomIntFromInterval(mn,mx){return~~(Math.random()*(mx-mn+1)+mn)}
