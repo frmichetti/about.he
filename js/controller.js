@@ -25,7 +25,7 @@ angular.module("FolioMainModule")
 
         $scope.status = "Available";
 
-        $scope.skills = ["Backend-developer", "Frontend-developer", "Fullstack-developer"];
+        $scope.skills = ["Backend-developer", "Frontend-developer", "Fullstack-developer", "DevOps"];
 
         $scope.videos = [{url: ""}, {url: ""}, {url: ""}];
 
