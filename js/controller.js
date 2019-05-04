@@ -4,7 +4,7 @@ angular.module("FolioMainModule")
         $scope.areas = ['home', 'resume', 'servicesx', 'portfoliox', 'blogx', 'contact'];
 
         $scope.about = "Programmer / Developer of Web and Mobile Systems.\n" +
-            "He has more than 7 years of experience in the computer cience.\n" +
+            "He has more than 7 years of experience in the computer science.\n" +
             "He is currently part of the FullStack and DevOps developer team at O ​​Kuadro.\n" +
             "Worked as Backend developer JAVA, RUBY and Mobile Android at Avski Software Solutions.\n" +
             "He has also worked in large and medium-sized companies, serving his users and equipment as Help-Desk.\n" +
@@ -29,7 +29,7 @@ angular.module("FolioMainModule")
 
         $scope.videos = [{url: ""}, {url: ""}, {url: ""}];
 
-        $scope.experiences = [{title: "Web Developer", period: "February 2018 - March 2019", small: "O Kuadro", description: "Developer Team with Ruby, NodeJs Language. DevOps Team. FrontEnd Team AngularJs and ReactJs."},
+        $scope.experiences = [{title: "Web Developer", period: "February 2018 - March 2019", small: "O Kuadro", description: "Developer Team with Ruby and NodeJs Language. DevOps Team. FrontEnd Team with AngularJs and ReactJs."},
             {title: "Backend and Mobile Developer", period: "March 2017 - January 2018",  small: "Avski Software Solutions", description:
                 "I worked as a Backend developer using the Ruby and Java Languages.Also acting as an Android developer.\n" +
                 "Maintenance of systems, integrations and implementation of new functionalities."}];
