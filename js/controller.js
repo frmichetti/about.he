@@ -5,7 +5,7 @@ angular.module("FolioMainModule")
 
         $scope.about = "Programmer / Developer of Web and Mobile Systems.\n" +
             "He has more than 7 years of experience in the computer science.\n" +
-            "He is currently part of the FullStack and DevOps developer team at O ​​Kuadro.\n" +
+            "He was part of the FullStack and DevOps developer team at O ​​Kuadro.\n" +
             "Worked as Backend developer JAVA, RUBY and Mobile Android at Avski Software Solutions.\n" +
             "He has also worked in large and medium-sized companies, serving his users and equipment as Help-Desk.\n" +
             "As Freelancer, he was Network Administrator and Web Developer of small projects (JAVA, PHP and Android).";
